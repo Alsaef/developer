@@ -1,0 +1,60 @@
+body{
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.span-orange {
+    color: orange;
+}
+.flexible-continer{
+    display: flex;
+    margin-bottom: 100px;
+}
+.haf-with{
+    width: 50%;
+    padding-left: 5%;
+}
+.haf-with img{
+    width: 80%;
+}
+.haf-with a{
+    background: orangered;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-color{
+    color: orange;
+}
+.experience-item{ width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.boder-color{
+    border-left: tomato solid 10px;
+}
+.boder-color2{
+    border-left: blue 10px solid;
+}

@@ -11,6 +11,7 @@ h1{
 .flexible-continer{
     display: flex;
     margin-bottom: 100px;
+   
 }
 .haf-with{
     width: 50%;
@@ -40,9 +41,8 @@ h1{
 .orange-color{
     color: orange;
 }
-.experience-item{ width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+.experience-item{ 
+   margin: 10px 20px;
     padding: 20px;
     box-shadow: 10px 10px 40px grey;
     border-radius: 10px;
@@ -57,4 +57,10 @@ h1{
 }
 .boder-color2{
     border-left: blue 10px solid;
+}
+.flexible-continer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
 }
